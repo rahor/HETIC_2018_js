@@ -1,0 +1,73 @@
+/* 
+Reset
+*/
+    *{
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size: 80%;
+    }
+
+    body{
+        font-size: 1.5rem;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+        padding: 1rem;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    h1 b {
+        display: block;
+        font-size: 1.1rem;
+        border-bottom: .1rem solid red;
+        padding-bottom: .5rem;
+    }
+/*  */
+
+/* 
+Layout
+*/
+    header, main, footer{
+        max-width: 50rem;
+        margin: auto;
+        padding: 4rem;
+    }
+
+    .formError{
+        border-color: red;
+    }
+/*  */
+
+/* 
+Nav
+*/
+    nav ul{
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: flex;
+    }
+/*  */
+
+/* 
+Form
+*/
+    input, button, textarea{
+        display: block;
+        width: 100%;
+        margin-bottom: 1rem;
+        padding: 1rem;
+
+        transition: all .5s;
+    }
+/*  */
